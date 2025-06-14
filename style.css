@@ -1,0 +1,43 @@
+.navbar {
+  background-color: #37517e;
+}
+.container-fulid {
+  background-color: #37517e;
+}
+.adil {
+  animation: move 1s alternate linear infinite;
+}
+@keyframes move {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(-15px);
+  }
+}
+#next {
+  filter: grayscale(100%);
+  transition: 0.5s;
+}
+#next:hover {
+  filter: grayscale(0);
+  scale: 1.05;
+}
+#color {
+  color: #37517e;
+}
+.blue {
+  height: 3px;
+  width: 70px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 10px;
+}
+.gray {
+  width: 180px;
+  height: 1px;
+  position: relative;
+  border-radius: 10px;
+}
