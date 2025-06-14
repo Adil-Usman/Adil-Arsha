@@ -6,6 +6,7 @@
 }
 .adil {
   animation: move 1s alternate linear infinite;
+  will-change: transform;
 }
 @keyframes move {
   from {
@@ -40,4 +41,23 @@
   height: 1px;
   position: relative;
   border-radius: 10px;
+}
+span {
+  color: #37517e;
+}
+#but {
+  background-color: #f5f6f8;
+}
+.heading {
+  color: #37517e;
+}
+.progress {
+  background-color: #023b6d;
+}
+#prog {
+  background-color: #023b6d;
+  border-radius: 0%;
+}
+#ns {
+  height: 10px;
 }
