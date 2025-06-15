@@ -1,5 +1,6 @@
 .navbar {
   background-color: #37517e;
+  padding-right: 20px;
 }
 .container-fulid {
   background-color: #37517e;
@@ -60,4 +61,114 @@ span {
 }
 #ns {
   height: 10px;
+}
+#hov:hover h1 {
+  color: rgb(38, 191, 211);
+}
+#change {
+  color: #37517e;
+}
+#hov:hover {
+  transform: translateY(-10px);
+}
+#hov {
+  transition: all 0.5s;
+}
+.ahmed {
+  width: 60px;
+  height: 60px;
+  margin-top: -50px;
+  margin-left: 0px;
+  position: relative;
+  z-index: 9999;
+}
+#ali {
+  color: #37517e;
+}
+#anish:hover img {
+  scale: 1.05;
+}
+#anish img {
+  transition: all 0.5s;
+}
+#anish:hover h1 {
+  transform: translateY(-10px);
+}
+#anish:hover p {
+  transform: translateY(-10px);
+}
+#anish:hover ul {
+  transform: translateY(-10px);
+}
+#anish:hover span {
+  transform: translateY(-10px);
+}
+#anish:hover img {
+  scale: 1.05;
+}
+#anish img {
+  transition: all 0.3s;
+}
+#anish h1 {
+  transition: all 0.5s;
+}
+#anish p {
+  transition: all 0.5s;
+}
+#anish ul {
+  transition: all 0.5s;
+}
+#anish span {
+  transition: all 0.5s;
+}
+
+.parallex {
+  background: url("https://bootstrapmade.com/content/demo/Arsha/assets/img/bg/bg-8.webp")
+    fixed;
+}
+.parallex {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: white;
+  padding: 20px;
+  padding-top: 80px;
+}
+.one {
+  width: 70%;
+}
+.two {
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.two button {
+  padding: 10px;
+  border-radius: 30px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  border: 4px solid white;
+  padding-left: 35px;
+  padding-right: 35px;
+}
+.one h1 {
+  font-size: 3.54rem;
+  padding-left: 40px;
+}
+.one p {
+  font-size: 1.2rem;
+  padding-left: 40px;
+  padding-right: 30px;
+}
+@media (max-width: 666px) {
+  .parallex {
+    flex-direction: column;
+  }
+  .one {
+    width: 100%;
+  }
+  .two {
+    width: 100%;
+  }
 }
