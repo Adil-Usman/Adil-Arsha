@@ -172,3 +172,122 @@ span {
     width: 100%;
   }
 }
+#logo {
+  background-color: rgb(216, 226, 226);
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  transition: all 0.3s;
+}
+.good {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+#pic1 {
+  transition: all 0.5s;
+}
+
+#pic1:hover {
+  transform: translateY(-10px);
+}
+@media (max-width: 991px) {
+  .kashi img {
+    width: 50%;
+  }
+}
+
+#logo:hover {
+  background-color: rgb(0, 174, 255);
+  color: white;
+}
+@media (max-width: 1200px) {
+  .kashi img {
+    width: 180%;
+  }
+}
+@media (max-width: 992px) {
+  .kashi img {
+    width: 50%;
+  }
+}
+@media (max-width: 428px) {
+}
+#blue {
+  margin-top: -28px;
+  position: relative;
+  margin-left: 75%;
+  padding: 2px;
+  width: 100px;
+}
+#car:hover img {
+  scale: 1.1;
+}
+#car {
+  overflow: hidden;
+}
+#green img {
+  transition: all 0.5s;
+}
+#car:hover h1 {
+  color: rgb(121, 189, 252);
+}
+#car:hover #read {
+  color: rgb(122, 180, 228);
+}
+#sp {
+  height: 50px;
+  width: 50px;
+  background-color: rgb(245, 241, 241);
+  border-radius: 50%;
+  margin-bottom: 30px;
+}
+#sp:hover {
+  background-color: rgb(0, 174, 255);
+}
+#daba1 {
+  border: 5px solid rgb(0, 183, 255);
+
+  border-right: 0;
+  border-left: 0;
+}
+#sus {
+  width: 137%;
+}
+#which {
+  border: 5px solid rgb(0, 183, 255);
+  border-left: 0;
+  border-right: 0;
+}
+@media (max-width: 1400px) {
+  #sus {
+    width: 110%;
+  }
+}
+#bull {
+  margin-left: -40px;
+  border: none;
+  border-radius: 50px;
+  color: white;
+  width: 150px;
+}
+#bill {
+  width: 400px;
+  height: 50px;
+  border: none;
+}
+#icon {
+  border: 2px solid black;
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  padding: 10px;
+  font-size: large;
+}
+#icon:hover {
+  color: rgb(67, 148, 255);
+  border-color: rgb(105, 181, 252);
+}
